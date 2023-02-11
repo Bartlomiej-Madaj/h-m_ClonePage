@@ -1,0 +1,34 @@
+
+.sidebar-list {
+    width: 250px;
+    padding-left: 2rem;
+  
+}
+
+.sidebar-list__title {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.sidebar-list__list {
+    font-size: 0.75rem;
+    list-style: none;
+    padding: 0.4rem 0;
+    margin: 0;
+}
+
+.sidebar-list__list li {
+    list-style: none;
+    padding: 0.3rem 0;
+}
+
+.sidebar-list__list li:hover {
+    text-decoration: underline;
+    color:red;
+    cursor: pointer;
+}
+
+.sidebar-list__list li:active {
+    color:red;
+    cursor: pointer;
+}

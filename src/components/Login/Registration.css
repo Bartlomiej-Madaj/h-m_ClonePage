@@ -1,0 +1,12 @@
+
+.error__email, .error__password {
+    color: red;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+}
+
+.registration__wrong-user {
+    font-size: 1rem;
+    text-align: center;
+    color: red;
+}

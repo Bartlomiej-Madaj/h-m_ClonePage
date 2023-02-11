@@ -1,0 +1,29 @@
+.categories {
+margin: 0 20px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.categories__img {
+    width: 140px;
+    height: 140px;
+    margin: auto 10px;
+    border-radius: 140px;
+    background-size: cover;
+}
+
+.categories__person, .categories__title {
+    margin: 0;
+    padding: 0.3rem;
+}
+
+.categories__person {
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+}
+
+.categories__title {
+    font-size: 0.85rem;
+}

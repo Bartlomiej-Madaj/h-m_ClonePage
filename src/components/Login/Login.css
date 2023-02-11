@@ -1,0 +1,164 @@
+
+.login {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.login__all {
+    position: fixed;
+    max-width: 500px;
+    background-color: #faf9f8;
+    z-index: 4;
+    padding: 0 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.login__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__block p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+
+
+.login__x {
+    position: relative; 
+    cursor: pointer;
+}
+
+.login__bargain {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.login__form {
+    width: 100%;
+}
+
+.login__email, .login__password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login__email label, .login__password label {
+    font-size: 0.8rem;
+    padding: 0.4rem 0;
+}
+
+.login__email label::after, .login__password label::after {
+    content: '*';
+    color: red;
+}
+
+.login__email input, .login__password input {
+    padding: 0.8rem;
+    border: 1px solid #d0d0d0;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing:normal;
+    word-spacing: normal;
+}
+
+.login__checkbox__wraper {
+    display: flex;
+    padding: 1.2rem 0;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__checkbox {
+
+   display: flex;
+   align-items: center;
+    
+}
+
+.login__checkbox label {
+    padding: 0 0.4rem;
+}
+
+.login__checkbox input {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.login__form__span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login__btn1 {
+    padding: 0.8rem;
+    border: 1px solid #222;
+    background-color: #222;
+    color: white;
+    height: 3rem;
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing:normal;
+    word-spacing: normal;
+    cursor: pointer;
+}
+
+.login__btn2 {
+    padding: 0.8rem;
+    border: 1px solid #222;
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing:normal;
+    word-spacing: normal;
+    cursor: pointer;
+}
+
+.login__info {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-bottom: 5rem;
+    cursor: pointer;
+}
+
+.login__drop {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.login__wrong-user {
+    font-size: 1rem;
+    text-align: center;
+    color: red;
+}

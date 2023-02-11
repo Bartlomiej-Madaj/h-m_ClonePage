@@ -1,0 +1,157 @@
+.one-product {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.one-products__wrap-image {
+    width: 100%;
+    max-width: 450px;
+    margin: auto 0;
+}
+
+.one-products__image {
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one-product__wrap-content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+}
+
+.one-product__title {
+    margin: 0;
+}
+
+.one-product__favourite {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.one-product__favourite:hover {
+    color: red;
+    font-size: 25px;
+}
+
+.one-product__favourite__chosen {
+    color: red
+}
+
+.one-product__price {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.one-product__color {
+    font-weight: 500;
+}
+
+.one-product__icon-image_wrap {
+    width: 100%;
+}
+
+.one-products__icon-image {
+    width: 100px;
+    
+}
+
+.one-product__review {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.one-product__review span {
+    padding-right: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.one-product__form {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 0.5rem;
+}
+
+#one-product__size {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-color: #d0d0d0;
+}
+
+.one-product__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.one-product__btn:active {
+    transform: scale(1.05);
+}
+
+.one-product__discount {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+}
+
+.one-product__access {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.one-product__access h5 {
+    margin: 0 ;
+    padding: 0 1rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+@media (max-width: 765px) {
+    .one-product {
+    grid-template-columns: 1fr;
+    }
+
+    .one-products__wrap-image {
+        margin: auto auto;
+    }
+
+    .one-product__wrap-content {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 0.8rem;
+    }
+
+    .one-product__price, .one-product__title, .one-product__color {
+        text-align: start;
+    }
+}
