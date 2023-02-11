@@ -1,0 +1,44 @@
+
+*, *::after, *::before {
+  box-sizing: border-box;
+ 
+}
+
+/* html {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+} */
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Lato' ;
+  src: url('../fonts/Lato-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato' ;
+  src: url('../fonts/Lato-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lato' ;
+  src: url('../fonts/Lato-Light.ttf');
+  font-weight: 300;
+}
+

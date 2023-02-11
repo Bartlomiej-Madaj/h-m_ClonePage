@@ -1,0 +1,117 @@
+
+.menu {
+  position: absolute;
+
+}
+
+.menu__all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    max-width: 500px;
+    height: 100vh;
+    background-color: white;
+    z-index: 4;
+    padding-bottom: 2rem;
+    
+}
+
+.menu__top {
+    background-color: #F1EBDF;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu__top span {
+    padding: 0.7rem;
+    font-size: 0.8rem;
+}
+
+.menu__top > * {
+    cursor: pointer;
+}
+
+
+.menu__main {
+    padding: 0 0.6rem; 
+}
+
+.menu__main p {
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.menu__main p:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.menu__main ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__main li {
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 0.8rem 1.2rem;
+    font-size: 500;
+}
+
+.menu__main li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.menu__x {
+    box-sizing: content-box;
+    position: fixed;
+    left: 400px;
+    z-index: 4;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    background-color: rgba(60, 60, 60, 1);
+    border-radius: 50%;
+    animation: movement 2s ease-out forwards ;
+    cursor: pointer;
+}
+
+.menu__drop {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.8;
+    z-index: 3;
+}
+
+@media (max-width: 650px) {
+
+    .menu__all{
+        
+        overflow-y: scroll;
+        padding-bottom: 5rem;
+    }
+}
+
+@keyframes movement {
+    0% {
+        transform: translateY(-10vh) rotateZ(0);
+
+    }
+
+    100% {
+        transform: translateY(45vh) rotateZ(540deg);
+    }
+}

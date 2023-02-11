@@ -1,0 +1,53 @@
+
+.submenu__top {
+    color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    background-color: inherit;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.submenu__top span {
+    padding-right: 2rem;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+.submenu__all {
+    overflow-y: scroll;
+    padding-bottom: 0;
+}
+
+.submenu__main h4 {
+    padding: 0.5rem 1.2rem;
+    margin: 0;
+}
+
+.submenu__top__btn {
+    width: 100%;
+    padding: 1rem;
+}
+
+.submenu__top__btn button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    background-color: inherit;
+    border: 1px solid #222;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: background-color 250ms ease-in;
+}
+
+.submenu__top__btn button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #222;
+}
+
+@media (max-width: 600px){
+    .submenu__top__btn button {
+        margin-bottom: 5rem;
+    }
+}

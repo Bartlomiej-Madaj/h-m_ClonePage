@@ -1,0 +1,57 @@
+
+.watched-items {
+    width: 145px;
+}
+
+.watched-items__image {
+    width: 145px;
+    height: 180px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.watched-items__favourite {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    background-color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.watched-items__title {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    padding: 0.8rem 0.5rem 0 ;
+}
+
+.watched-items__price {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.2rem 0.5rem 0.5rem ;
+}
+
+.watched-items__favourite1 {
+    /* color: rgb(72, 72, 72); */
+}
+
+.watched-items__favourite1:hover {
+    color: red;
+    font-size: 25px;
+}
+
+ .watched-items__favourite__chosen {
+    color: red;
+    font-size: 25px;
+}

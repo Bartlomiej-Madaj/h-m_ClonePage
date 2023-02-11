@@ -1,0 +1,24 @@
+.basket__box__3 {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.basket__box__list {
+    width: 100%;
+    /* padding: 0 1rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 145px);
+    gap: 1rem;
+    margin: 0;
+}
+
+.basket__box__3 h3 {
+    margin: 1rem 0.5rem;
+}
+
+.basket__no_results {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    
+}

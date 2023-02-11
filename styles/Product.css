@@ -1,0 +1,126 @@
+
+.product {
+
+    width: 27%;
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 300px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product__wrap1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-top: 1rem;
+    width: 100%;
+    height: 50%;
+}
+
+.product__wrap2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 0.6rem;
+    width: 100%;
+    height: 50%;
+}
+
+.product__image {
+    width: 60%;
+    height: 100%;
+    min-height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.product__favourite {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.product__favourite:hover {
+    color: red;
+    font-size: 25px;
+}
+
+.product__favourite__chosen {
+    color: red
+}
+
+.product__title {
+    overflow-x: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin: 0;
+    padding: 0.1rem 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.product__price {
+    margin: 0;
+    padding: 0.1rem 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.product__color {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: auto 0.1rem;
+
+}
+
+.product__new {
+    margin: 0;
+    padding: 0.1rem 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.product__form {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 0.5rem;
+    }
+    
+#product__size {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-color: #d0d0d0;
+    
+    }
+
+
+.product__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.product__btn:active {
+    transform: scale(1.05);
+}

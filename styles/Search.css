@@ -1,0 +1,49 @@
+
+
+.search {
+    /* width: 100%;
+    display: flex;
+    justify-content: space-between; */
+
+    padding: 0.7rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search__loupe {
+    box-sizing: content-box;
+    padding: 0.5rem ;
+    cursor: pointer;
+}
+
+.search__x {
+    box-sizing: content-box;
+    padding: 0.5rem ;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.search__input {
+    width: 90%;
+}
+
+.search__input input {
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    background: none ;
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing:normal;
+    word-spacing: normal;
+}
+
+/* .search__input input :focus {
+    
+} */
+
